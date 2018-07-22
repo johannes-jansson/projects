@@ -2,7 +2,7 @@
 layout: post
 title:  "Hand wiring a let's split"
 date:   2018-07-21 21:39:21 +0200
-categories: jekyll update
+tags: diy keyboard tutorial
 ---
 ![My hand wired let's split]( https://i.imgur.com/jCqzdiB.jpg "My hand wired let's split")
 
