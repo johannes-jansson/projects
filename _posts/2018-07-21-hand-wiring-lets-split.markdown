@@ -48,11 +48,9 @@ on two specific pins on the pro micro, and serial only on two others. So since I
 wanted to use I2C I had to stay clear of those two pins, marked as SDA and SCL
 on the pinout below.
 
-<p align="center">
 ![Pinout for the pro micro](https://cdn.sparkfun.com/r/600-600/assets/9/c/3/c/4/523a1765757b7f5c6e8b4567.png "Pinout for the pro micro")
 
 [Picture courtesy of Adafruit](https://learn.sparkfun.com/tutorials/pro-micro--fio-v3-hookup-guide/hardware-overview-pro-micro "Adafruits website")
-</p>
 
 So as long as you stay clear of those you are free to connect every row and
 every column of the matrix to any pin you'd like! Just make sure you take notes
@@ -123,10 +121,8 @@ One thing that is important to note is that qmk uses the names of the pins on
 the *atmega32u4* microchip, not necessarily the labels on your microcontroller.
 For the pro micro I looked at this pinout:
 
-<p align="center">
 ![pinout for pro
 micro](https://i.redditmedia.com/KyKu8OGG3h3GNG6bKOMu9kmkoYGFlo5JMTArc8mCMq8.png?w=320&s=7d4921d16d6a3ddd187d39905268ea90)
-</p>
 
 So I wrote down that the first row was wired to pin 10 on the pro micro, I
 looked up that this pin is marked PB6 in the picture above, so I typed `B6` in
