@@ -12,9 +12,11 @@ would definitely recommend the project to others. Me and some friends at the
 [Swedish mechanical keyboard Discord server](http://mekaniskatangentbord.se/)
 all followed Geekhack user cribbit's [wonderful hand wiring
 guide](https://geekhack.org/index.php?topic=87689.0 "A modern hand wiring
-guide") with great results, but there was one thing that could be improved.
+guide") with great results. 
 Another useful guide is [the BrownFox](https://deskthority.net/workshop-f7/brownfox-step-by-step-t6050.html
-"BrownFox step by step"). The instructions on how to connect you beautiful hand
+"BrownFox step by step"). 
+But there were two things that could be improved.
+The instructions on how to connect your beautiful hand
 wiring matrix to your microcontroller, and how to set up the software config
 to use the correct pins. So I will try to expand on that here, standing on the
 shoulders of giants. The text should be usable for anyone hand wiring a
@@ -68,8 +70,8 @@ wiring guides, so I'm going to try to explain it in a clear way.
 You need to make sure that there is a connection between each row and
 a pin on the microcontroller, and each col and a pin on the microcontroller.
 If you followed "A modern handwiring guide" you can attach the row cable
-anywhere on the long wire running on the
-black side of the diodes. This can be the end of the wire, one of the
+anywhere on the long wire running on *the
+black side* of the diodes. This can be the end of the wire, one of the
 connections between the wire and a diode or any other part of the wire. For the
 cols it's even simpler. Literally anywhere on the wire or on any switch pin is
 going to yield the exact same result. To make it super clear I've made some
@@ -94,10 +96,6 @@ hand wiring and I'm not super proud but this is how my wiring ended up looking:
 ## Do I have to wire the halves the same way?
 Technically, no. But for the let's split firmware file it's very convenient to
 wire them the same way, or mirrored. So that's what I did and what I recommend.
-
-## How do I wire I2C?
-[Like this:](https://qmk.fm/keyboards/lets_split/)
-![wiring diagram for I2C](https://qmk.fm/keyboards/lets_split/i2c_wiring.png)
 
 ## I'm done with the soldering. Now how do I program this thing?
 This is probably the scariest part for anyone doing their first
@@ -125,9 +123,9 @@ For the pro micro I looked at this pinout:
 ![pinout for pro
 micro](https://i.redditmedia.com/KyKu8OGG3h3GNG6bKOMu9kmkoYGFlo5JMTArc8mCMq8.png?w=320&s=7d4921d16d6a3ddd187d39905268ea90)
 
-So I wrote down that the first row was wired to pin 10 on the pro micro, I
-looked up that this pin is marked PB6 in the picture above, so I typed `B6` in
-the code. Simple as that.
+So when I was soldering I wrote down that the first row was wired to pin `10` on the pro micro, I
+looked up the pin, found that it's marked `PB6` in the picture above, so I typed `B6` in
+the code. Rinse and repeat, simple as that.
 
 That's it! Good luck with your hand wiring project, and hit me up on Reddit
 (/u/johananasen) or
