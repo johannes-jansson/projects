@@ -19,8 +19,8 @@ description: >- # this means to ignore newlines until "baseurl:"
   Hi! I'm Johannes. Engineer, software developer, DIY:er and preacher (yeah, seriously).
   This webpage will serve as a combined logbook, portfolio and hosting platform for stuff
   I want to share with others.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://johannes-jansson.github.io/projects/" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/projects" # the subpath of your site, e.g. /blog
+url: "https://johannes-jansson.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: Johananasen
 github_username:  johannes-jansson
 
