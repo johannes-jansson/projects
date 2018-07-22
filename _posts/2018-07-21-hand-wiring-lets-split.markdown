@@ -4,7 +4,7 @@ title:  "Hand wiring a let's split"
 date:   2018-07-21 21:39:21 +0200
 tags: diy keyboard tutorial
 ---
-![My hand wired let's split]( https://i.imgur.com/jCqzdiB.jpg "My hand wired let's split")
+![always be knolling]( https://i.imgur.com/QrspkWf.jpg)
 
 [I recently hand wired my first mechanical
 keyboard.](https://imgur.com/gallery/yP0R3wh) I had a lot of fun with it and
