@@ -22,6 +22,8 @@ keyboard with a layout that already
 exists in qmk, but all examples will be for the pro micro microcontroller and
 the lets split keyboard files.
 
+![my let's split keyboard](https://i.imgur.com/jCqzdiB.jpg)
+
 ## What pins can I use?
 > Basically any pin you want, as long as it isn't assigned to anything else!
 
