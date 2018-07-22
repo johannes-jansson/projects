@@ -33,7 +33,7 @@ learned so far.
 
 A microprocessor has loads of different input and output pins. Some are analog
 and some are digital. Mechanical keyboard switches only need digital pins
-(switches are either in or off, never 42 %) but since analog pins can be used
+(switches are either on or off, never 42 %) but since analog pins can be used
 for reading digital signals that's nothing we need to worry about.
 
 There are some hard exceptions that I've found:
@@ -65,8 +65,8 @@ later.
 This is something that seems to confuse some people who read the existing hand
 wiring guides, so I'm going to try to explain it in a clear way.
 
-What you need to do is making sure that there is connection between each row and
-a pin on the microcontroller, and  each col and a pin on the microcontroller.
+You need to make sure that there is a connection between each row and
+a pin on the microcontroller, and each col and a pin on the microcontroller.
 If you followed "A modern handwiring guide" you can attach the row cable
 anywhere on the long wire running on the
 black side of the diodes. This can be the end of the wire, one of the
@@ -100,15 +100,14 @@ wire them the same way, or mirrored. So that's what I did and what I recommend.
 ![wiring diagram for I2C](https://qmk.fm/keyboards/lets_split/i2c_wiring.png)
 
 ## I'm done with the soldering. Now how do I program this thing?
-This is probably what is the scariest part for anyone doing their first
-keyboard, but it turned out to be super easy. [Except for what you usually need
-to do to flash a PCB based let's
-split](https://github.com/nicinabox/lets-split-guide/blob/master/flashing.md)
-there was only one extra step. You need to let the microcomputer know which
-pins to use to communicate with the switch matrix.
-
-All of that information resides in `keyboards/lets_split/rev2/config.h`. Look
-for lines that begin like this:
+This is probably the scariest part for anyone doing their first
+keyboard, but it turned out to be super easy. [Follow the regular flashing
+guide
+](https://github.com/nicinabox/lets-split-guide/blob/master/flashing.md)
+but add one extra step. You need to let the microcomputer know which
+pins to use to communicate with the switch matrix, since your wiring will
+probably be different from the PCB version. All of that information resides in `keyboards/lets_split/rev2/config.h`. Look
+for these lines:
 
 {% highlight c %}
 // wiring of each half
