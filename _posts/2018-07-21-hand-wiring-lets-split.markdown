@@ -6,7 +6,7 @@ tags: diy keyboard tutorial
 ---
 
 > This post describes which pins can be used for hand wiring a keyboard, how to
-> connect you hand wiring matrix to the microcontroller and what you need to do
+> connect your hand wiring matrix to the microcontroller and what you need to do
 > to get your handwired keyboard to work with existing qmk firmware. 
 
 ![always be knolling]( https://i.imgur.com/QrspkWf.jpg)
