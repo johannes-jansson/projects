@@ -1,9 +1,14 @@
 ---
 layout: post
 title:  "Hand wiring a let's split"
-date:   2018-07-21 21:39:21 +0200
+date:   2018-07-23 11:39:21 +0200
 tags: diy keyboard tutorial
 ---
+
+> This post describes which pins can be used for hand wiring a keyboard, how to
+> connect you hand wiring matrix to the microcontroller and what you need to do
+> to get your handwired keyboard to work with existing qmk firmware. 
+
 ![always be knolling]( https://i.imgur.com/QrspkWf.jpg)
 
 [I recently hand wired my first mechanical
@@ -95,16 +100,22 @@ hand wiring and I'm not super proud but this is how my wiring ended up looking:
 
 ## Do I have to wire the halves the same way?
 Technically, no. But for the let's split firmware file it's very convenient to
-wire them the same way, or mirrored. So that's what I did and what I recommend.
+wire them the same way, or mirrored. I decided to wire them identically since
+it was getting late and I was afraid I would mess up. If you mirror it you're
+good to go, if not you have to uncomment the line `#define FLIP_HALF` in the
+file `config.h` in your keymap folder. 
 
 ## I'm done with the soldering. Now how do I program this thing?
 This is probably the scariest part for anyone doing their first
-keyboard, but it turned out to be super easy. [Follow the regular flashing
-guide
-](https://github.com/nicinabox/lets-split-guide/blob/master/flashing.md)
+keyboard, but it turned out to be super easy. I went the manual route,
+installing QMK and compiling my firmware from source, and that's what I'd
+recommend doing. There may be a great tutorial for getting started with QMK out
+there, but [the QMK documeentation](https://docs.qmk.fm/#/README) was good
+enough. With QMK set up [follow the regular flashing guide ](https://github.com/nicinabox/lets-split-guide/blob/master/flashing.md)
 but add one extra step. You need to let the microcomputer know which
 pins to use to communicate with the switch matrix, since your wiring will
-probably be different from the PCB version. All of that information resides in `keyboards/lets_split/rev2/config.h`. Look
+probably be different from the PCB version. All of that information resides
+in `keyboards/lets_split/rev2/config.h`. Look
 for these lines:
 
 {% highlight c %}
