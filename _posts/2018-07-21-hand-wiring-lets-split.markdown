@@ -55,7 +55,9 @@ keystrokes. *But wait, there is more...* The let's split keyboard uses I2C or
 serial communication to communicate between the halves. I2C is only available
 on two specific pins on the pro micro, and serial only on two others. So since I
 wanted to use I2C I had to stay clear of those two pins, marked as SDA and SCL
-on the pinout below.
+on the pinout below. Also, do note that you need two resistors and a TRRS jack and
+cable (4 poles) to get I2C to work. Put the resistors in one of the halves, doesn't
+matter wich one. For more info about I2C vs Serial check out [the QMK docs](https://qmk.fm/keyboards/lets_split/).
 
 ![Pinout for the pro micro](https://cdn.sparkfun.com/r/600-600/assets/9/c/3/c/4/523a1765757b7f5c6e8b4567.png "Pinout for the pro micro")
 
