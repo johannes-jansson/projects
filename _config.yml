@@ -16,9 +16,9 @@
 title: Janzon's projects
 email: johannes.e.jansson@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Hi! I'm Johannes. Engineer, software developer, DIY:er and preacher (yeah, seriously).
-  This webpage will serve as a logbook, a portfolio and a hosting platform for things
-  I want to share with others.
+  Hi! I'm Johannes. Engineer, software developer, DIY:er and preacher. This
+  webpage will serve as a logbook, a portfolio and a hosting platform for
+  things I want to share with others.
 # baseurl: "" # the subpath of your site, e.g. /blog
 # url: "localhost" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "/projects" # the subpath of your site, e.g. /blog
