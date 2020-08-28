@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  "How I Read Non-Fiction and Remember Everything (ish)"
+title:  "How I Read Non-Fiction and Remember Everything (Ish)"
 date:   2020-08-27 21:37:13 +0200
 tags: reading kindle tutorial
 ---
 > Do you feel like you never remember what you've read?
 > By switching from hardcovers to Kindle I've found a way to remember everything I read (ish) without it ruining the reading experience. 
-> Highlighting, and being able to work with your highlights in a creative memory-enhancing way made all the difference in the world.
+> Highlighting and being able to work with your highlights in a creative memory-enhancing way made all the difference in the world.
 
 ## How I Read Nowadays
 > TL;DR: Kindle + highlighting
@@ -26,11 +26,12 @@ That is, _the highlight feature_.
 
 I automatically started highlighting passages when I started my first book. 
 You simply point and drag with your finger, as one would expect. 
-It's also possible (albeit a little bit clunky, with the on-screen keyboard) to add text notes to highlights. 
+It's also possible (albeit a tiny bit clunky with the on-screen keyboard) to add text notes to highlights. 
 I found it convenient that you were able to reference your highlights from the Kindle and my computer, but didn't think more about it at the time. 
 When I found out that it's possible to export all of your highlights and notes into a text file, everything changed. 
 
-So that's how I read nowadays. 
+Anyway. 
+That's how I read nowadays. 
 On my Kindle, simply highlighting anything I want to remember. 
 
 ## How I Remember Everything I Read (Ish)
@@ -65,7 +66,7 @@ For this and all future steps, I'll open up the book in the desktop Kindle app f
 Now for the fun part.
 Looking at one section at the time, I'll read through the highlights and then try to reformulate them in my own words.
 For some sections, or if I'm lazy, that ends up just being direct quotes from the book. 
-Ideally, I want to re-formulate and summarize the highlights in my own words, both explaining and condensing the highlights.  
+Ideally, I want to re-formulate and summarize the highlights in my own words, both explaining and condensing the highlights. 
 It's blazingly fast to reference the highlights with their contexts in the Kindle desktop application if something is unclear. 
 The result looks something like this:
 
@@ -76,7 +77,8 @@ Which I'll later on export to a PDF looking something like this:
 ![PDF summary](https://i.imgur.com/homERXa.png)
 
 This is a somewhat time-consuming process, but it's 100 % worth it. 
-Not only does it give me a summary to reference in the future that's with me in the cloud wherever I go and is searchable. 
+It is also many times faster to do it this way than to do it parallel to the reading, or to do it with a physically highlighted book. 
+Not only does it give me a searchable summary to reference in the future that's with me in the cloud wherever I go. 
 I also find that it helps me internalize and remember the contents a whole lot more. 
 This might be because of [the spacing effect](https://en.wikipedia.org/wiki/Spacing_effect), which states that studying the same material again at a later point helps recollection.
 It might be because I'm interacting with the text in a more hands-on way. 
@@ -100,4 +102,4 @@ Too complex for me, that is.
 When I feel like I'm losing control I'll just do this method for each section of the book instead, or each chapter. 
 - The method does take some time.
 [The book in the screenshots](https://www.goodreads.com/book/show/27985224) took me about 7 hours to read, and about 2.5 hours to summarize.
-But it was the best book I've read in a while, resulting in loads of highlights.
+But it was the best book I've read in a while, resulting in loads of highlights and an 11 page summary.
