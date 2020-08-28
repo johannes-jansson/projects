@@ -55,7 +55,7 @@ Whenever I finish a good non-fiction book and I want to make sure to remember it
 
 I make sure to highlight all relevant chapter and section headings while reading, so the next step is to find and mark them. 
 I like to use the text format [Markdown](https://en.wikipedia.org/wiki/Markdown), which makes it easy to format text without having to meddle with buttons and stuff.
-I just add a `#` sign for a header, two for a sub-header, three for a sub-sub-header, etc.  
+I just add a `#` sign for a header, two for a sub-header, three for a sub-sub-header, etc. 
 `##` will usually be the chapters and `###` the chapter sections. 
 Use for example [MacDown](https://macdown.uranusjr.com/) to get started. 
 But you can do this in Google Docs or any other word processor as well. 
