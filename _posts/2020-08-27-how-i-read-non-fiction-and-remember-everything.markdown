@@ -77,7 +77,7 @@ Which I'll later on export to a PDF looking something like this:
 ![PDF summary](https://i.imgur.com/homERXa.png)
 
 This is a somewhat time-consuming process, but it's 100 % worth it. 
-It is also many times faster to do it this way than to do it parallel to the reading, or to do it with a physically highlighted book. 
+It is also a lot faster to do it this way than to do it parallel to the reading, or to do it with a physically highlighted book. 
 Not only does it give me a searchable summary to reference in the future that's with me in the cloud wherever I go. 
 I also find that it helps me internalize and remember the contents a whole lot more. 
 This might be because of [the spacing effect](https://en.wikipedia.org/wiki/Spacing_effect), which states that studying the same material again at a later point helps recollection.
